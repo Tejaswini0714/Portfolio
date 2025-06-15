@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel= "stylesheet" href = "style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class = "fa-solid fa-bars" id="menu-icon"></i>                
+        <nav class = "navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Tejaswini</h1>
+             <h3>I am a <span class="multiple-text"></span></h3>
+             <p>I’m a passionate and skilled developer who creates responsive, user-friendly websites and applications. I specialize in frontend development, Python scripting, and problem-solving.</p>
+             <div class = "social-media">
+                <a href="https://www.linkedin.com/in/tejaswini-bavirisetti-737123289"  target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Tejaswini0714"  target="_blank"><i class="fa-brands fa-github"></i></a>
+             </div>
+             <a href="Bavirisetti Tejaswini.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src = "img.jpg" alt="">
+        </div>
+    </section>
+
+     <section class="about" id="about">
+        <div class="about-content full-width">
+            <h2 class="heading" style="text-align:center">About Me</h2>
+            <p>I’m a undergraduate B.Tech student with a passion for 
+                software development, problem-solving, and emerging technologies. Skilled in C, 
+                C++, Java, and Python, with a strong foundation in data structures and database management. 
+                I’m especially interested in web development and artificial intelligence, 
+                and have experience working with Python web frameworks like Flask and Django.
+                I actively engage in projects, coding contests, and open-source contributions to gain hands-on experience and create real-world impact through technology.
+           </p>
+        </div>
+     </section>
+
+    <section class="education" id="Education">
+        <h2 class="heading">My Education</h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <h3>BTech</h3>
+                <p>Vignan's Institute of engineering for women | 2022 - 2026</p>
+            </div>
+
+            <div class="education-box">
+                <h3>Intermediate - MPC</h3>
+                <p>Sri Gayatri College | 2020 - 2022</p>
+            </div>
+
+            <div class="education-box">
+                <h3>SSC</h3>
+                <p>Pearl English Medium School | 2020 </p>
+
+            </div>
+        </div>
+    </section>
+
+            
+     <section class="services" id="services">
+        <h2 class="heading">My Services</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I build responsive, fast-loading, and user-friendly websites using modern web technologies like HTML, CSS, and JavaScript frameworks</p>
+                
+            </div>
+
+            <div class="services-box">
+                 <i class="fa-brands fa-python"></i>
+                 <h3>Python Development</h3>
+                 
+                 <p>I build Python scripts to automate repetitive tasks and save you time.
+                     Python also use for backend.
+                 </p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-server"></i>
+                 <h3>Django Web Development</h3>
+                 <p>Full-stack web apps using Django from user authentication to REST APIs. Ideal for dashboards and scalable backends.</p>
+            </div>
+        </div>
+     </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Designed and developed a responsive multi-page website using HTML and CSS.Implemented key pages: Home, Menu, Contact Us, Login, Signup
+                    </p>
+                    
+                </div>  
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>python code</h4>
+                    <p> Python scripting for develop a chatbot</p>
+                </div>  
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>ChatBot</h4>
+                    <p>Built a simple chatbot using Python, simulating human-like conversation.Focused on natural language responses and basic command recognition.</p>
+                   
+                </div>  
+            </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+    
+    </footer>
+    
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src = "main.js"></script>
+</body>
+</html>
